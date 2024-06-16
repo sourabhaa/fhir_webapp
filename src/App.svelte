@@ -10,7 +10,7 @@
   });
 </script>
 
-<div class="bg-base-layer h-screen relative">
+<div class="bg-base-layer h-screen w-screen relative">
   <div
     class="absolute left-red-rect-right top-red-rect-top w-sidebar h-red-rectangle bg-accent-red rounded-2xl ml-6 mt-5"
   ></div>

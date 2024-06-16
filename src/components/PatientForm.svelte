@@ -1,42 +1,29 @@
 <script>
-  // Form logic if any
+  import { Button } from "flowbite-svelte";
+  import { SearchOutline } from "flowbite-svelte-icons";
 </script>
 
 <div class="p-4">
-  <h2 class="text-xl mb-4 font-bold">SELECT PATIENT</h2>
+  <h2 class="text-xl mb-4 font-bold">SEARCH PATIENT</h2>
   <form class="grid grid-cols-2 gap-4">
-    <div>
-      <label class="block text-sm font-medium text-gray-700">First Name:</label>
+    <div class="flex items-center">
       <input
         type="text"
-        placeholder="First Name"
-        class="mt-1 p-2 w-full border border-gray-300 rounded"
+        placeholder="Search here"
+        class="mt-1 p-1 w-full h-[5vh] border border-gray-300 rounded"
       />
     </div>
-    <div>
-      <label class="block text-sm font-medium text-gray-700">Last Name:</label>
-      <input
-        type="text"
-        placeholder="Last Name"
-        class="mt-1 p-2 w-full border border-gray-300 rounded"
-      />
-    </div>
-    <div>
-      <label class="block text-sm font-medium text-gray-700"
-        >Date of Birth:</label
+    <div class="flex items-center">
+      <Button
+        color="blue"
+        class="!p-2"><SearchOutline class="w-6 h-6" /></Button
       >
-      <input
-        type="date"
-        class="mt-1 p-2 w-full border border-gray-300 rounded"
-      />
-    </div>
-    <div>
-      <label class="block text-sm font-medium text-gray-700">Gender:</label>
-      <select class="mt-1 p-2 w-full border border-gray-300 rounded">
-        <option>Gender</option>
-        <option>Male</option>
-        <option>Female</option>
-      </select>
     </div>
   </form>
 </div>
+
+<style>
+  label {
+    min-width: 10vh; /* Adjust as needed to align the labels */
+  }
+</style>

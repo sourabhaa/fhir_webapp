@@ -7,6 +7,7 @@
     LandmarkOutline,
   } from "flowbite-svelte-icons";
   import { Button, Modal } from "flowbite-svelte";
+  import { Accordion, AccordionItem } from "flowbite-svelte";
   import { tick } from "svelte";
   let notification = { message: "", type: "", show: false };
   let modalVisible = false;
@@ -35,6 +36,7 @@
   // Form fields
   let mrn = "";
   let govIdType = "DL";
+  let govIdFull = "Driver licence number";
   let govIdNum = "";
   let firstName = "";
   let lastName = "";
@@ -64,6 +66,7 @@
               {
                 system: "http://terminology.hl7.org/CodeSystem/v2-0203",
                 code: govIdType,
+                display: govIdFull,
               },
             ],
           },
@@ -167,6 +170,15 @@
   >
     <form class="grid grid-cols-2 gap-4">
       <div>
+        <label class="block text-sm font-medium text-gray-700">MRN:</label>
+        <input
+          type="text"
+          placeholder="MRN"
+          bind:value={mrn}
+          class="mt-1 p-2 w-full border border-gray-300 rounded"
+        />
+      </div>
+      <div>
         <label class="block text-sm font-medium text-gray-700"
           >Government Identifier Type:</label
         >
@@ -174,7 +186,7 @@
           bind:value={govIdType}
           class="mt-1 p-2 w-full border border-gray-300 rounded"
         >
-          <option>Driver's licence number (DL)</option>
+          <option>Driver licence number (DL)</option>
           <option>Birth Certificate (BCT)</option>
           <option>Citizenship Card (CZ)</option>
           <option>Health Card Number (HC)</option>
@@ -214,15 +226,7 @@
           class="mt-1 p-2 w-full border border-gray-300 rounded"
         />
       </div>
-      <div>
-        <label class="block text-sm font-medium text-gray-700">MRN:</label>
-        <input
-          type="text"
-          placeholder="MRN"
-          bind:value={mrn}
-          class="mt-1 p-2 w-full border border-gray-300 rounded"
-        />
-      </div>
+
       <div>
         <label class="block text-sm font-medium text-gray-700"
           >Date of Birth:</label
