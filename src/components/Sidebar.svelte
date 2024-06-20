@@ -13,8 +13,14 @@
   let modalVisible = false;
   import axios from "axios";
   import { fetchPatients } from "../stores/patientStore.js";
+  import { navigate } from "svelte-routing";
   const dispatch = createEventDispatcher();
   import { createEventDispatcher } from "svelte";
+
+  function goToHome() {
+    navigate("/");
+  }
+
   // Modal action buttons
   function openModal() {
     modalVisible = true;
@@ -93,7 +99,7 @@
         },
       ],
     };
-    const baseURL = "http://localhost:8081/fhir";
+    const baseURL = import.meta.env.VITE_BASE_URL;
     try {
       await axios.post(`${baseURL}/Patient`, newPatient);
       fetchPatients(); // Refresh patient list
@@ -145,8 +151,9 @@
     <ul>
       <li class="mb-4">
         <a
-          href="#"
+          href="/"
           class="flex items-center"
+          on:click={goToHome}
         >
           <HomeOutline class="w-6 h-6" />
           <span class="ml-2">Home</span>

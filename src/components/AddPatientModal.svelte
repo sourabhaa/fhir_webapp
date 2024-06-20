@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
   import {
     Button,
     Modal,
