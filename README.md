@@ -26,6 +26,14 @@ npx tailwindcss init -p
 npm install flowbite flowbite-svelte
 npm i -D flowbite-svelte-icons
 npm install axios
+npm i short-uuid 
+npm install svelte-routing
+npm install axios uuid 
+npm install @sveltejs/kit 
+
+
+
+
 
 
 ```
