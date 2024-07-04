@@ -1,0 +1,16 @@
+{
+  "servers": [
+    {
+      "id": 1,
+      "name": "Local HAPI FHIR",
+      "baseUrl": "http://localhost:8081/fhir",
+      "authType": "None"
+    },
+    {
+      "id": 2,
+      "name": "Surabhi HAPI FHIR",
+      "baseUrl": "http://128.199.18.229:8081/fhir",
+      "authType": "None"
+    }
+  ]
+}

@@ -23,9 +23,15 @@
     "vite": "^5.2.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@sveltejs/kit": "^2.5.17",
     "axios": "^1.7.2",
     "flowbite": "^2.3.0",
     "flowbite-svelte": "^0.46.1",
+    "font-awesome-icons": "^1.6.0",
+    "short-uuid": "^5.2.0",
     "svelte-routing": "^2.13.0",
     "svelte-spa-router": "^4.0.1",
     "uuid": "^10.0.0"

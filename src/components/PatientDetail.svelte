@@ -8,7 +8,16 @@
   import { hasContext } from "svelte";
   import { PlusOutline } from "flowbite-svelte-icons";
   // Base URL for the API
-  const baseURL = import.meta.env.VITE_BASE_URL;
+  // const baseURL = import.meta.env.VITE_BASE_URL;
+
+  import { baseUrlStore } from "../stores/baseUrlStore";
+// Subscribe to the baseUrlStore to get the current baseUrl
+let baseURL = "";
+baseUrlStore.subscribe((value) => {
+  baseURL = value;
+  // Optional: You can also store the baseURL in local storage here
+  localStorage.setItem("baseUrl", baseURL);
+});
 
   // Patient and Vitals data structures
 

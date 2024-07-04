@@ -4,7 +4,8 @@
   import { createEventDispatcher } from 'svelte';
   import { Toast, Button } from 'flowbite-svelte'; // Import Flowbite Toast component
   import { patientStore } from "./../stores/patientStore";
-
+  import { baseUrlStore } from '../stores/baseUrlStore';
+  import { get } from 'svelte/store';
 
   const dispatch = createEventDispatcher();
   let patient = {
@@ -202,7 +203,12 @@
   // }
 
   }
-  const baseURL = import.meta.env.VITE_BASE_URL;
+  let baseURL = '';
+  baseUrlStore.subscribe(value => {
+    baseURL = value;
+  });
+
+  // const baseURL = import.meta.env.VITE_BASE_URL;
   async function sendRequest(payload) {
     const response = await fetch(`${baseURL}/Observation`, {
       method: 'POST',

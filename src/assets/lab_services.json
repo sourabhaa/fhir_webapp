@@ -1,0 +1,485 @@
+{
+    "labServices": [
+        {
+            "serviceCode": "005215",
+            "serviceName": "Sedimentation Rate",
+            "specimen": "Whole Blood",
+            "containerType": "Lavender-top tube",
+            "loinc_code": "4537-7",
+            "resultParams": [
+                {
+                    "sequence": 1,
+                    "resultCode": "005215-1",
+                    "loincCode": "4537-7",
+                    "resultName": "Sedimentation Rate-Westergren",
+                    "uofm": "mm/hr"
+                }
+            ]
+        },
+        {
+            "serviceCode": "001453",
+            "serviceName": "Hemoglobin A1c",
+            "specimen": "Whole Blood",
+            "containerType": "Lavender-top tube",
+            "loincCode": "4548-4",
+            "resultParams": [
+                {
+                    "sequence": 1,
+                    "resultCode": "001481",
+                    "loincCode": "4548-4",
+                    "resultName": "Hemoglobin A1c",
+                    "uofm": "%"
+                }
+            ]
+        },
+        {
+            "serviceCode": "001040",
+            "serviceName": "Blood Urea Nitrogen",
+            "specimen": "Serum",
+            "containerType": "green-top tube",
+            "loincCode": "3094-0",
+            "resultParams": [
+                {
+                    "sequence": 1,
+                    "resultCode": "001040-1",
+                    "loincCode": "62292-8",
+                    "resultName": "BUN",
+                    "uofm": "ng/mL"
+                }
+            ]
+        },
+        {
+            "serviceCode": "081950",
+            "serviceName": "Vitamin D, 25-Hydroxy",
+            "specimen": "Serum",
+            "containerType": "Red-top tube",
+            "loincCode": "62292-8",
+            "resultParams": [
+                {
+                    "sequence": 1,
+                    "resultCode": "081953",
+                    "loincCode": "62292-8",
+                    "resultName": "Vitamin D, 25-Hydroxy",
+                    "uofm": "ng/mL"
+                }
+            ]
+        },
+        {
+            "serviceCode": "006627",
+            "serviceName": "C-Reactive Protein, Quan",
+            "specimen": "Serum",
+            "containerType": "Red-top tube or gel-barrier tube",
+            "loincCode": "1988-5",
+            "resultParams": [
+                {
+                    "sequence": 1,
+                    "resultCode": "006627",
+                    "loincCode": "1988-5",
+                    "resultName": "C-Reactive Protein, Quant",
+                    "uofm": "mg/L"
+                }
+            ]
+        },
+        {
+            "serviceCode": "000620",
+            "serviceName": "Thyroid Panel With TSH",
+            "specimen": "Serum",
+            "containerType": "Red-top tube",
+            "loincCode": "490224-7",
+            "resultParams": [
+                {
+                    "sequence": 1,
+                    "resultCode": "004264",
+                    "loincCode": "11580-8",
+                    "resultName": "TSH",
+                    "uofm": "uIU/mL"
+                },
+                {
+                    "sequence": 2,
+                    "resultCode": "001149",
+                    "loincCode": "3026-2",
+                    "resultName": "Thyroxine (T4)",
+                    "uofm": "ug/dL"
+                },
+                {
+                    "sequence": 3,
+                    "resultCode": "001156",
+                    "loincCode": "3050-2",
+                    "resultName": "T3 Uptake",
+                    "uofm": "%"
+                },
+                {
+                    "sequence": 4,
+                    "resultCode": "001164",
+                    "loincCode": "32215-6",
+                    "resultName": "Free Thyroxine Index",
+                    "uofm": ""
+                }
+            ]
+        },
+        {
+            "serviceCode": "005009",
+            "serviceName": "CBC with Differential",
+            "specimen": "Whole blood",
+            "containerType": "Lavender-top tube",
+            "loincCode": "57021-8",
+            "resultParams": [
+                {
+                    "sequence": 1,
+                    "resultCode": "005025",
+                    "loincCode": "6690-2",
+                    "resultName": "WBC",
+                    "uofm": "x10E3/uL"
+                },
+                {
+                    "sequence": 2,
+                    "resultCode": "005033",
+                    "loincCode": "789-8",
+                    "resultName": "RBC",
+                    "uofm": "x10E6/uL"
+                },
+                {
+                    "sequence": 3,
+                    "resultCode": "005041",
+                    "loincCode": "718-7",
+                    "resultName": "Hemoglobin",
+                    "uofm": "g/dL"
+                },
+                {
+                    "sequence": 4,
+                    "resultCode": "005058",
+                    "loincCode": "4544-3",
+                    "resultName": "Hematocrit",
+                    "uofm": "%"
+                },
+                {
+                    "sequence": 5,
+                    "resultCode": "015065",
+                    "loincCode": "787-2",
+                    "resultName": "MCV",
+                    "uofm": "fL"
+                },
+                {
+                    "sequence": 6,
+                    "resultCode": "015073",
+                    "loincCode": "785-6",
+                    "resultName": "MCH",
+                    "uofm": "pg"
+                },
+                {
+                    "sequence": 7,
+                    "resultCode": "015081",
+                    "loincCode": "786-4",
+                    "resultName": "MCHC",
+                    "uofm": "g/dL"
+                },
+                {
+                    "sequence": 8,
+                    "resultCode": 105007,
+                    "loincCode": "788-0",
+                    "resultName": "RDW",
+                    "uofm": "%"
+                },
+                {
+                    "sequence": 9,
+                    "resultCode": "015172",
+                    "loincCode": "777-3",
+                    "resultName": "Platelets",
+                    "uofm": "x10E3/uL"
+                },
+                {
+                    "sequence": 10,
+                    "resultCode": "015107",
+                    "loincCode": "770-8",
+                    "resultName": "Neutrophils",
+                    "uofm": "%"
+                },
+                {
+                    "sequence": 11,
+                    "resultCode": "015123",
+                    "loincCode": "736-9",
+                    "resultName": "Lymphs",
+                    "uofm": "%"
+                },
+                {
+                    "sequence": 12,
+                    "resultCode": "015131",
+                    "loincCode": "5905-5",
+                    "resultName": "Monocytes",
+                    "uofm": "%"
+                },
+                {
+                    "sequence": 13,
+                    "resultCode": "015149",
+                    "loincCode": "713-8",
+                    "resultName": "Eos",
+                    "uofm": "%"
+                },
+                {
+                    "sequence": 14,
+                    "resultCode": "015156",
+                    "loincCode": "706-2",
+                    "resultName": "Basos",
+                    "uofm": "%"
+                },
+                {
+                    "sequence": 15,
+                    "resultCode": "015945",
+                    "loincCode": "58413-6",
+                    "resultName": "NRBC",
+                    "uofm": "%"
+                }
+            ]
+        },
+        {
+            "serviceCode": "322777",
+            "serviceName": "Renal Panel (10)",
+            "specimen": "Serum",
+            "containerType": "Gel-barrier tube",
+            "loincCode": "24362-6",
+            "resultParams": [
+                {
+                    "sequence": 1,
+                    "resultCode": "001032",
+                    "loincCode": "2345-7",
+                    "resultName": "Glucose",
+                    "uofm": "mg/dL"
+                },
+                {
+                    "sequence": 2,
+                    "resultCode": "001040",
+                    "loincCode": "3094-0",
+                    "resultName": "BUN",
+                    "uofm": "mg/dL"
+                },
+                {
+                    "sequence": 3,
+                    "resultCode": "001370",
+                    "loincCode": "2160-0",
+                    "resultName": "Creatinine",
+                    "uofm": "mg/dL"
+                },
+                {
+                    "sequence": 4,
+                    "resultCode": "011577",
+                    "loincCode": "3097-3",
+                    "resultName": "BUN/Creatinine Ratio",
+                    "uofm": ""
+                },
+                {
+                    "sequence": 5,
+                    "resultCode": "001198",
+                    "loincCode": "2951-2",
+                    "resultName": "Sodium",
+                    "uofm": "mmol/L"
+                },
+                {
+                    "sequence": 6,
+                    "resultCode": "001180",
+                    "loincCode": "2823-3",
+                    "resultName": "Potassium",
+                    "uofm": "mmol/L"
+                },
+                {
+                    "sequence": 7,
+                    "resultCode": "001206",
+                    "loincCode": "2075-0",
+                    "resultName": "Chloride",
+                    "uofm": "mmol/L"
+                },
+                {
+                    "sequence": 8,
+                    "resultCode": "001578",
+                    "loincCode": "2028-9",
+                    "resultName": "Carbon Dioxide, Total",
+                    "uofm": "mmol/L"
+                },
+                {
+                    "sequence": 9,
+                    "resultCode": "001016",
+                    "loincCode": "17861-6",
+                    "resultName": "Calcium",
+                    "uofm": "mg/dL"
+                },
+                {
+                    "sequence": 10,
+                    "resultCode": "001024",
+                    "loincCode": "2777-1",
+                    "resultName": "Phosphorus",
+                    "uofm": "mg/dL"
+                },
+                {
+                    "sequence": 11,
+                    "resultCode": "001081",
+                    "loincCode": "1751-7",
+                    "resultName": "Albumin",
+                    "uofm": "g/dL"
+                }
+            ]
+        },
+        {
+            "serviceCode": "303756",
+            "serviceName": "Lipid Panel",
+            "specimen": "Serum",
+            "containerType": "Green-top tube",
+            "loincCode": "24331-1",
+            "resultParams": [
+                {
+                    "sequence": 1,
+                    "resultCode": "001065",
+                    "loincCode": "2093-3",
+                    "resultName": "Cholesterol, Total",
+                    "uofm": "mg/dL"
+                },
+                {
+                    "sequence": 2,
+                    "resultCode": "001172",
+                    "loincCode": "2571-8",
+                    "resultName": "Triglycerides",
+                    "uofm": "mg/dL"
+                },
+                {
+                    "sequence": 3,
+                    "resultCode": "011817",
+                    "loincCode": "2085-9",
+                    "resultName": "HDL Cholesterol",
+                    "uofm": "mg/dL"
+                },
+                {
+                    "sequence": 4,
+                    "resultCode": "011919",
+                    "loincCode": "13458-5",
+                    "resultName": "VLDL Cholesterol Cal",
+                    "uofm": "mg/dL"
+                },
+                {
+                    "sequence": 5,
+                    "resultCode": "012059",
+                    "loincCode": "13457-7",
+                    "resultName": "LDL Chol Calc (NIH)",
+                    "uofm": "mg/dL"
+                },
+                {
+                    "sequence": 6,
+                    "resultCode": "011831",
+                    "loincCode": "77202-0",
+                    "resultName": "Comment:",
+                    "uofm": ""
+                }
+            ]
+        },
+        {
+            "serviceCode": "322755",
+            "serviceName": "Hepatic Function Panel",
+            "specimen": "Serum",
+            "containerType": "Red-top tube",
+            "loincCode": "24325-3",
+            "resultParams": [
+                {
+                    "sequence": 1,
+                    "resultCode": "001073",
+                    "loincCode": "2885-2",
+                    "resultName": "Protein, Total",
+                    "uofm": "g/dL"
+                },
+                {
+                    "sequence": 2,
+                    "resultCode": "001081",
+                    "loincCode": "1751-7",
+                    "resultName": "Albumin",
+                    "uofm": "g/dL"
+                },
+                {
+                    "sequence": 3,
+                    "resultCode": "001099",
+                    "loincCode": "1975-2",
+                    "resultName": "Bilirubin, Total",
+                    "uofm": "mg/dL"
+                },
+                {
+                    "sequence": 4,
+                    "resultCode": "001222",
+                    "loincCode": "1968-7",
+                    "resultName": "Bilirubin, Direct",
+                    "uofm": "mg/dL"
+                },
+                {
+                    "sequence": 5,
+                    "resultCode": "001107",
+                    "loincCode": "6768-6",
+                    "resultName": "Alkaline Phosphatase",
+                    "uofm": "IU/L"
+                },
+                {
+                    "sequence": 6,
+                    "resultCode": "001123",
+                    "loincCode": "1920-8",
+                    "resultName": "AST (SGOT)",
+                    "uofm": "IU/L"
+                },
+                {
+                    "sequence": 7,
+                    "resultCode": "001545",
+                    "loincCode": "1742-6",
+                    "resultName": "ALT (SGPT)",
+                    "uofm": "IU/L"
+                }
+            ]
+        },
+        {
+            "serviceCode": "001370",
+            "serviceName": "Creatinine",
+            "specimen": "Serum",
+            "containerType": "Red-top tube",
+            "loinc_code": "2160-0",
+            "resultParams": [
+                {
+                  "sequence": 1,
+                  "resultCode": "001370",
+                  "loincCode": "2160-0",
+                  "resultName": "Creatinine",
+                  "uofm": "mg/dL"
+                },
+                {
+                  "sequence": 2,
+                  "resultCode": 100779,
+                  "loincCode": "98979-8",
+                  "resultName": "eGFR",
+                  "uofm": "mL/min/1.73"
+                }
+              ]
+        },
+        {
+            "serviceCode": "005041",
+            "serviceName": "Hemoglobin",
+            "specimen": "Whole blood",
+            "containerType": "Lavender-top tube",
+            "loinc_code": "718-7",
+            "resultParams": [
+                {
+                    "sequence": 1,
+                    "resultCode": "005041-1",
+                    "loincCode": "718-7",
+                    "resultName": "Hemoglobin",
+                    "uofm": "g/dL"
+                  }
+            ]
+        },
+        {
+            "serviceCode": "001180",
+            "serviceName": "Potassium",
+            "specimen": "Serum",
+            "containerType": "Red-top tube",
+            "loinc_code": "2823-3",
+            "resultParams": [
+                {
+                  "sequence": 1,
+                  "resultCode": "001180",
+                  "loincCode": "2823-3",
+                  "resultName": "Potassium",
+                  "uofm": "mmol/L"
+                }
+              ]
+        }
+    ]
+}

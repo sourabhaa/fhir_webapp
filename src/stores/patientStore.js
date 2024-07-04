@@ -1,14 +1,19 @@
 import { writable } from "svelte/store";
 import axios from "axios";
-
+import { baseUrlStore } from "../stores/baseUrlStore";
 // Define the writable store for the list of patients
 export const patients = writable([]);
 
 // Define the writable store for the selected patient details
 export const patientStore = writable({});
 
-// Define the base URL for the FHIR server
-const baseURL = import.meta.env.VITE_BASE_URL;
+// Subscribe to the baseUrlStore to get the current baseUrl
+let baseURL = "";
+baseUrlStore.subscribe((value) => {
+  baseURL = value;
+  // Optional: You can also store the baseURL in local storage here
+  localStorage.setItem("baseUrl", baseURL);
+});
 
 // Function to fetch the list of patients
 export const fetchPatients = async () => {
